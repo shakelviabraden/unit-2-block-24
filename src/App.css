@@ -1,0 +1,30 @@
+.featured {
+  border: solid black 3px;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.featured ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.list {
+  margin-top: 50px;
+  border: 2px solid red;
+}
+.list h1 {
+  text-align: center;
+}
+
+.all-pups {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.puppy { 
+  align-self: center;
+}
